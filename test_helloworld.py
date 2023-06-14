@@ -3,4 +3,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Gaming Architecture interns!'
+    h = """
+    <html>
+    Hello, Gaming Architecture interns!
+    <img src="arny.jfif">
+    </html>
+    """
+    return h
