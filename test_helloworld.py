@@ -6,7 +6,7 @@ def hello_world():
     h = """
     <html>
     Hello, Gaming Architecture interns!
-    <img src="arny.jfif">
+    <img src="arny.png">
     </html>
     """
     return h
